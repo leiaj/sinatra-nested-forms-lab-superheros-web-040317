@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<h1>Create a Team and Heroes!</h2>
+</head>
+<body>
+  <form action='/teams' method="POST">
 
+    <p>Team Name: <input type ="text" name="team[name]"</p>
+    <p>Team Motto: <input type ="text" name="team[motto]"</p>
+
+    <h2>Hero 1</h2>
+    <p>Hero's Name: <input id= "member1_name" type ="text" name="team[members][][name]"</p>
+    <p>Hero's Power: <input id= "member1_power" type ="text" name="team[members][][power]"</p>
+    <p>Hero's Biography: <input id= "member1_bio" type ="text" name="team[members][][bio]"</p>
+
+    <h2>Hero 2</h2>
+    <p>Hero's Name: <input id= "member2_name" type ="text" name="team[members][][name]"</p>
+    <p>Hero's Power: <input id="member2_power" type ="text" name="team[members][][power]"</p>
+    <p>Hero's Biography: <input id="member2_bio" type ="text" name="team[members][][bio]"</p>
+
+    <h2>Hero 3</h2>
+    <p>Hero's Name: <input id= "member3_name" type ="text" name="team[members][][name]"</p>
+    <p>Hero's Power: <input id="member3_power" type ="text" name="team[members][][power]"</p>
+    <p>Hero's Biography: <input id="member3_bio" type ="text" name="team[members][][bio]"</p>
+    <br>
+    <br>
+    <input type="submit" value ="submit"/>
+
+  </form>
+
+</body>
+</html>

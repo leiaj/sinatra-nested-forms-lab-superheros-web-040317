@@ -1,3 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <h1><%=@team.name%></h1>
+</head>
+<body>
+  <h2>Team Motto: <%=@team.motto%> </h2>
+  <h2>Hero Name: <%=@members[0].name %></h2>
+  <p>Hero Power: <%=@members[0].power %></p>
+  <p>Hero Biography: <%=@members[0].bio %></p>
 
+  <h2>Hero Name: <%=@members[1].name %></h2>
+  <p>Hero Power: <%=@members[1].power %></p>
+  <p>Hero Biography: <%=@members[1].bio %></p>
 
-
+  <h2>Hero Name: <%=@members[2].name %></h2>
+  <p>Hero Power: <%=@members[2].power %></p>
+  <p>Hero Biography: <%=@members[2].bio %></p>
+</body>
+</html>
